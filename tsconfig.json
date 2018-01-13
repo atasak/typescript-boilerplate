@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "declaration": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "mocha",
+      "chai",
+      "sinon",
+      "sinon-chai",
+      "node"
+    ],
+    "lib": [
+      "es2015",
+      "es2015.promise",
+      "es2015.proxy"
+    ],
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "apiwrapper": [
+        "dist/runtime/syncsystem/contentwrappers"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "spec",
+    "**/*.bak/*",
+    "**/*.spec.ts"
+  ]
+}

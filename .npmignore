@@ -1,0 +1,18 @@
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+
+#config files
+.gitignore
+npm-debug.log
+package-lock.json
+tsconfig.json
+tslint.json
+
+# src and test
+/src
+/.nyc_output
+/coverage
+/spec
